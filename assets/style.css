@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi|Ubuntu&display=swap');
+
+body {
+    color: #f5f5f5;
+    background-color: #262626;
+    font-family: Ubuntu;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*---navbar---*/
+
+#menu {
+    font-size: 120%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    text-align: right;
+}
+
+
+#menu li {
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+    display: inline;
+    line-height: 60px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #a62d2d;
+}
+
+#active {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+
+/*--- Hero Image---*/
+
+#hero {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: Alatsi;
+}
+
+.hero-image {
+    background: url("../images/heroimage.jpg");
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#hero-name {
+    font-size: 700%;
+    color: #a62d2d;
+    opacity: 1;
+    padding-top: 100px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#hero-title {
+    font-size: 400%;
+    color: #a62d2d;
+    opacity: 0.9;
+    padding-top: 1px;
+    text-align: right;
+}
+
+#hero-quote {
+    font-size: 275%;
+    color: #595959;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+/*-- overview links --*/
+
+#overview {
+    padding-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.about-me {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 33%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.about-plans {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 33%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.about-contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 33%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+hr {
+    border-top: 1px solid #595959;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.indeximage1 {
+    background: url("../images/indeximage1.jpg");
+    padding-top: 10px;
+    width: 70%;
+    height: 130px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.indeximage2 {
+    background: url("../images/indeximage2.jpg");
+    padding-top: 10px;
+    width: 70%;
+    height: 130px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.indeximage3 {
+    background: url("../images/indeximage3.jpg");
+    padding-top: 10px;
+    width: 70%;
+    height: 130px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history {
+    padding-top: 10px;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.history h1 {
+    padding: 10px;
+    font-size: 275%;
+    color: #595959;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: #595959;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url("https://images.squarespace-cdn.com/content/v1/53eb6f42e4b020c8f3d775d7/1558023508359-NT1VZIALCIRZVVL4HCXU/ke17ZwdGBToddI8pDm48kEf7hpYWcr7wwLLXT9TqXL57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p4XabXLlNWpcJMv7FrN_NJBn29wC7NYEU9St1qe3ujGVU6ncsmfyrCDs0N6wath6Q/brent+austin+laughing.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+
+}
+*/
+
+.plan-1 {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.plan-2 {
+    padding-top: 30px;
+    width: 33%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.plans-image {
+    background: url("../images/plansimage.jpg");
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+footer {
+    height: 150px;
+    color: white;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #f5f5f5;
+}
