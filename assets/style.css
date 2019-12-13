@@ -45,7 +45,34 @@ body {
 }
 
 
-/*--- Hero Image---*/
+/*footer*/
+
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+
+.social-networks i:hover {
+    color: #bf1304;
+}
+
+/*--- Hero Image Index page---*/
 
 #hero {
     height: 600px;
@@ -90,9 +117,9 @@ body {
     text-align: right;
 }
 
-/*-- overview links --*/
+/*-- about links --*/
 
-#overview {
+#about{
     padding-top: 5px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -185,7 +212,7 @@ hr {
     background-size: cover;
 }
 
-.history {
+#history {
     padding-top: 10px;
     line-height: 20px;
     clear: both;
@@ -194,7 +221,7 @@ hr {
 
 }
 
-.history h1 {
+#history h1 {
     padding: 10px;
     font-size: 275%;
     color: #595959;
@@ -224,28 +251,23 @@ hr {
 }
 */
 
-.plan-1 {
-    padding-top: 30px;
-    width: 33%;
+
+/* plans */
+.column {
     float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    display: inline-block;
-    text-align: center;
+  width: 30%;
+  padding: 10px;
 
 }
 
-.plan-2 {
-    padding-top: 30px;
-    width: 33%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.plan-type {
     display: inline-block;
-    text-align: center;
-
-
 }
 
 .plans-image {
@@ -255,25 +277,124 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
-footer {
-    height: 150px;
-    color: white;
 }
 
-.social-networks {
+
+#planstable {
+    width:100%;
+    display: inline-block;
+    padding-left: 10%;
     text-align: center;
+    
+}
+
+#planstable th, td {
+    padding: 7px 10px 10px 10px;
+}
+
+#planstable th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    text-align: center;
+}
+
+.tablehead {
+    border-bottom: 2px solid #bf1304;
+    width:300px;
+    
+}
+
+.plans-title {
+    font-size: 400%;
+    color: #a62d2d;
+    opacity: 0.9;
+    padding-top: 1px;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.plans-quote {
+    font-size: 150%;
+    color: #a62d2d;
+    opacity: 0.9;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+
+/*contact*/
+
+.contact {
+    background: url("../images/plansimage.jpg");
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+#name {
+    margin: 20px;
+    width: 50%;
+    height: 30px;
 
 }
 
-.social-networks li {
-    display: inline;
+#textarea {
+    width: 66%;
+    height: 150px;
+    text-align: center;
 }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     color: #f5f5f5;
+    font-family: Ubuntu;
+}
+
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#bf1304; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+    color: #f5f5f5;
+    font-family: Ubuntu;
+   
+}
+
+input[type=submit]:hover {
+    background-color: #a62d2d;
+}
+
+
+#textarea {
+    color:#262626;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.contacttitle {
+    font-size: 400%;
+    color: #a62d2d;
+    padding-top: 1px;
+    font-weight: bold;
+    font-family: Alatsi;
+    text-align: center;
+    
 }
