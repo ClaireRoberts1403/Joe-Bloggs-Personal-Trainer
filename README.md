@@ -32,7 +32,9 @@ The business owner will need ease of access to the website to change any details
 
  
 The wireframes designed in the initial stages of planning the project.
+
 **Research - Styling**
+
 Brief exploration was undertaken to inspire the ideas for the powerful, dynamic and motivational webpage. Below is a selection of elements that inspired the styling of this website.
 
 
