@@ -16,7 +16,7 @@ Business Owner - Joe Blogg’s
 The business owner will need ease of access to the website to change any details quickly and without difficulty. Particularly, the plans section, photos and the reviews section. The main aim is client generation at this stage though there is scope to expand the website's functionality in the future.   
  
 Wireframes   
-
+ 
  
 
  
