@@ -17,7 +17,7 @@ The business owner will need ease of access to the website to change any details
  
 Wireframes   
 
- 
+ ![Image of wire frames](https://github.com/ClaireRoberts1403/Joe-Bloggs-Personal-Trainer/blob/master/images/wireframes.png)
 
  
 
