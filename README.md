@@ -18,10 +18,9 @@ The user will want quick access to be able to contact Joe and book training sess
 **Business Owner - Joe Blogg’s**
 The business owner will need ease of access to the website to change any details quickly and without difficulty. Particularly, the plans section, photos and the reviews section. The main aim is client generation at this stage though there is scope to expand the website's functionality in the future.   
  
-Wireframes   
+### Wireframes   
  
  
-**Wireframes**
 
  ![Image of wire frames](https://github.com/ClaireRoberts1403/Joe-Bloggs-Personal-Trainer/blob/master/images/wireframes.png)
 
@@ -44,6 +43,7 @@ The wireframes designed in the initial stages of planning the project.
 Brief exploration was undertaken to inspire the ideas for the powerful, dynamic and motivational webpage. Below is a selection of elements that inspired the styling of this website.
 
 
+![Image of inspiration college ](https://github.com/ClaireRoberts1403/Joe-Bloggs-Personal-Trainer/blob/master/images/inspirationcollege.jpg)
 
 
 
