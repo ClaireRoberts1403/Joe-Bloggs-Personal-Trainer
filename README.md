@@ -42,7 +42,6 @@ The wireframes designed in the initial stages of planning the project.
 
 Brief exploration was undertaken to inspire the ideas for the powerful, dynamic and motivational webpage. Below is a selection of elements that inspired the styling of this website.
 
-
 ![Image of inspiration college ](https://github.com/ClaireRoberts1403/Joe-Bloggs-Personal-Trainer/blob/master/images/inspirationcollege.jpg)
 
 
@@ -108,10 +107,22 @@ This project is styled using CSS 3
 
 This project used some Bootstrap toolkit, such as repsonsive elements and Navbar.
 
-**Testing**
+#### Testing
+
+**Basic functionality testing**
+
+Basic functionality testing found 1 issue - a href on the index page not linking to contact page. - Fixed.
+All other basic functionailty tests passed.
+
+**Static Code Test**
 
 Code tested in:
+
  * The W3C HTML/CSS validation.
+ 
+**Peer Review Test**
+
+**User Testing**
 
 
 
