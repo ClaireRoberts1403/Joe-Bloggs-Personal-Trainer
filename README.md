@@ -4,6 +4,7 @@ A business website for a personal trainer who offers personalised training sessi
 The website for ‘Joe Bloggs | Personal Trainer’ wants to inspire, motivate and generate interest of potential new clients and as a base to engage current clients.
  
 **UX**
+
 The user experiences can be split into three main users for the website.
 
 **User 1 - The Potential Client**
