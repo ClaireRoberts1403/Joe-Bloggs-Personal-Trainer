@@ -67,7 +67,7 @@ A reviews page that creates motivation and builds a reputation of trust through 
 
 **Contact page - Connectivity with clients**
 
-Easy to use contacts page with positive and bold styling to gain that client and their business. Client would input details and a brief message to ‘Joe’ which will be sent via email to Joe who can then respond. Bigger links to social media pages to continue building the brand of ‘Joe’.
+Easy to use contacts page with positive and bold styling to gain that client and their business. Client would input details and a brief message to ‘Joe’ which will be sent via email to Joe who can then respond. 
 
 **Header**
 
@@ -140,7 +140,7 @@ This website was of my own design but with the inspiration and help from the fol
 This project is part of The Full Stack Web Development course from the Code Insitute.
 Guidance and inspiration taken from previous modules and mini projects.
 
-Code used from Bootstrap Toolkit, editing with help from 
+Code used from Bootstrap Toolkit, edited with help from 
 *  W3Schools.com
 *  slack.com
 
