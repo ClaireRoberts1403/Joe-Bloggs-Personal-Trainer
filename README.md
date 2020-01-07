@@ -2,8 +2,10 @@
 
 A business website for a personal trainer who offers personalised training sessions. 
 The website for ‘Joe Bloggs | Personal Trainer’ wants to inspire, motivate and generate interest of potential new clients and as a base to engage current clients.
+
+ ![Image of landing page](https://github.com/ClaireRoberts1403/Joe-Bloggs-Personal-Trainer/blob/master/images/landingpage.png)
  
-**UX**
+### UX
 
 The user experiences can be split into three main users for the website.
 
@@ -47,7 +49,7 @@ Brief exploration was undertaken to inspire the ideas for the powerful, dynamic 
 
 
 
-**Features**
+### Features
 
 **Existing Features**
 
@@ -63,7 +65,8 @@ Clear, with enough detail to inform clients on the plan type and its pricing. Co
 **Reviews page - Inspire/Reassure**
 
 A reviews page that creates motivation and builds a reputation of trust through the success stories of past/current clients. Builds on the brand of ‘Joe’. Styling more open and personable, still with bold styling yet with colour photos of clients and ‘Joe’, enhance approachability.
-**Contact page - connectivity with clients**
+
+**Contact page - Connectivity with clients**
 
 Easy to use contacts page with positive and bold styling to gain that client and their business. Client would input details and a brief message to ‘Joe’ which will be sent via email to Joe who can then respond. Bigger links to social media pages to continue building the brand of ‘Joe’.
 
@@ -75,41 +78,65 @@ A styled links navbar to all pages for ease of access.
 
 Links to social media pages.
 
+**Responsive**
+
 All features designed to work over multiple devices, ensuring the highest level of usability on mobile devices.  
 
  
-**Future Potential Features**
+#### Future Potential Features
 
-Online booking feature with calendar 
-Online payments options
-Ecommerce page to sell training materials and sportswear.
-Ecommerce page to sell online training videos or personalise training plans for at home.
-Live feed from social media
-Live stream training sessions for at home workouts
+* Online booking feature with calendar 
+* Online payments options
+* Ecommerce page to sell training materials and sportswear.
+* Ecommerce page to sell online training videos or personalise training plans for at home.
+* Live feed from social media
+* Live stream training sessions for at home workouts
 
 
 
-**Technologies Used**
+### Technologies used
 
 **HTML5**
+
 This project is written using HTML5
 
 **CSS 3**
+
 This project is styled using CSS 3
 
 **Bootstrap 4**
+
 This project used some Bootstrap toolkit, such as repsonsive elements and Navbar.
 
-Testing
+**Testing**
 
-Deployment
+Code tested in:
+ * The W3C HTML/CSS validation.
 
 
-Credits
 
-Content
+### Deployment
 
-Media
+Website deployed via GitHub
 
-Acknowledgements
-I received inspiration for this project from X
+https://claireroberts1403.github.io/Joe-Bloggs-Personal-Trainer/
+
+
+### Credits and Acknowledgements
+
+This website was of my own design but with the inspiration and help from the following information sources:
+
+This project is part of The Full Stack Web Development course from the Code Insitute.
+Guidance and inspiration taken from previous modules and mini projects.
+
+Code used from Bootstrap Toolkit, editing with help from 
+*  W3Schools.com
+*  slack.com
+
+Fonts and icons from Font Awesome
+
+Images from Bing Image search used without permission but only for educational purposes.
+  
+
+
+
