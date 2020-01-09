@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alatsi|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 body {
     color: #f5f5f5;
@@ -153,6 +154,19 @@ ul {
     border-radius: 5px;
 }
 
+.card-footer {
+    border-color: transparent;
+    padding-top: 10px;
+}
+
+.card-footer p {
+    padding-top: 8px;
+}
+
+.home {
+    margin-top: 10px;
+}
+
 .about {
     line-height: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
@@ -166,22 +180,25 @@ ul {
 .about p {
     padding-left: 10px;
     padding-right: 10px;
+    font-family: nunito;
+    letter-spacing: 0.5px;
 }
 
 .about:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.9);
 }
 
 .linkabout {
     text-decoration: none;
-    color: #ca0c04;
+    color: #f5f5f5;
 }
 
 .linkabout:hover {
     border-bottom: 1px solid #ca0c04;
     text-decoration: none;
-    color: #f5f5f5;
+    color: #ca0c04;
 }
+
 
 hr {
     border-top: 2px solid #595959;
@@ -197,6 +214,8 @@ hr {
     text-align: center;
     padding-left: 13%;
     padding-right: 13%;
+    font-family: nunito;
+    letter-spacing: 0.5px;
 
 }
 
@@ -208,6 +227,7 @@ hr {
     padding-bottom: 10px;
     text-align: center;
     margin-bottom: 10px;
+    font-family: Ubuntu;
 }
 
 
@@ -280,14 +300,15 @@ hr {
 }
 
 .plans-quote {
-    font-size: 150%;
+    font-size: 120%!important;
     color: #ca0c04;
     opacity: 0.9;
     padding-top: 5px;
     text-align: center;
-    line-height: 40px;
-    letter-spacing: 1px;
+    line-height: 30px;
     margin-bottom: 20px;
+    font-family: nunito;
+    letter-spacing: 0.5px;
 
 }
 
@@ -304,16 +325,20 @@ hr {
 .card-deck {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 20px;
 }
 
 .card {
     background-color: #262626!important;
     text-align: center;
-    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 3px 10px 3px black;
+    border-color: transparent;
     margin-left: 0;
     margin-right: 0;
 
 }
+
+
 
 .card-body {
     background-color: #262626!important;
@@ -332,15 +357,15 @@ hr {
     color: #ca0c04;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #plansdescription i {
     color: #f5f5f5;
 }
 
-#plansdescription i:hover {
-    color: #ca0c04;
+h5 {
+    padding-bottom: 0.5em;
 }
 
 
@@ -357,6 +382,25 @@ hr {
     text-align: center;
     font-size: large;
     margin-top: 50px;
+    color: #fafafa;
+    padding-left: 5px;
+     margin-bottom: 10px;
+    
+}
+
+a  {
+    color: #f5f5f5;
+   
+    
+}
+
+a:hover {
+    color:#ca0c04;
+}
+.download:hover {
+    color: #ca0c04;
+    text-decoration: none;
+   
 }
 
 .download-pdf i {
@@ -366,14 +410,12 @@ hr {
     padding-left: 5px;
 }
 
-.download-pdf i:hover {
-    color: #a62d2d;
-}
 
 .downloadsmall {
     padding-left: 10px;
     text-align: center;
     padding-right: 10px;
+     margin-bottom: 10px;
 
 }
 
@@ -382,7 +424,7 @@ hr {
 
 .reviewtitlebg {
     background-color: black;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -416,6 +458,7 @@ hr {
     margin: 0px;
     line-height: 20px;
     letter-spacing: 0.8px;
+    border-radius: 5px;
 }
 
 #reviewgallery h3 {
@@ -432,9 +475,11 @@ hr {
 }
 
 .desc {
-    font-size: 100%;
+    font-size: 110%;
     line-height: 25px;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px 10px 10px;
+    font-family: nunito;
+    letter-spacing: 0.5px;
 
 }
 
@@ -501,6 +546,17 @@ hr {
     padding-top: 6px;
 }
 
+ @media only screen and (max-width: 768px) {   
+    .card-columns {
+        column-count: 2;
+    }
+ }    
+ 
+ @media only screen and (max-width: 668px) {   
+    .card-deck {
+        flex-flow: column;
+    }
+ } 
 
 @media (max-width: 435px) {
 
@@ -528,6 +584,9 @@ hr {
     .card-deck {
         column-count: 1;
         width: 100%;
+    }
+     .card-columns {
+        column-count: 1;
     }
 
     .container-fluid {
@@ -557,7 +616,6 @@ hr {
         margin-left: 15%;
     }
 }
-
 
 
 
@@ -606,6 +664,11 @@ hr {
     .check {
         font-size: 120%;
 
+    }
+    #review-quote {
+        font-size: 150%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 

@@ -105,7 +105,7 @@ This project is styled using CSS 3
 
 **Bootstrap 4**
 
-This project used some Bootstrap toolkit, such as repsonsive elements and Navbar.
+This project used some Bootstrap toolkit, such as repsonsive elements, cards, and Navbar.
 
 #### Testing
 
@@ -119,10 +119,15 @@ All other basic functionailty tests passed.
 Code tested in:
 
  * The W3C HTML/CSS validation.
+ * Chrome DevTools - Lighthouse.
  
 **Peer Review Test**
 
+Feedback from peer review suggested design alterations for better UX including a third font and dropping to two columns at the tablet response size.
+
 **User Testing**
+
+User testing completed by a Project Manager in the field. Good feedback on making the links more clear and accessible. Sudjested the Favicon.
 
 
 
@@ -146,7 +151,11 @@ Code used from Bootstrap Toolkit, edited with help from
 
 Fonts and icons from Font Awesome
 
+Favicon from Favicon.io
+
 Images from Bing Image search used without permission but only for educational purposes.
+
+All content fictional.
   
 
 
