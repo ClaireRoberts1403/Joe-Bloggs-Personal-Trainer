@@ -10,7 +10,7 @@ The website for ‘Joe Bloggs | Personal Trainer’ wants to inspire, motivate a
 The user experiences can be split into three main users for the website.
 
 **User 1 - The Potential Client**
-This user needs to be pulled into the website and be motivated to hire Joe Blogg as a personal trainer. The user will need a clear introduction to who Joe is, and create a high level of likeability to engage the client to the next stage. The plans page needs to be clear of what training sessions are on offer, pricing and a taste of what to expect on those sessions. The review section is to both reassure and inspire the client with some of Joe’s past clients success stories. The contact page continuing the rapport of the client to Joe showing approachability to connect with Joe, and further opportunities to connect through social media links.
+The user needs to be pulled into the website and be motivated to hire Joe Blogg as a personal trainer. The user will need a clear introduction to who Joe is, and create a high level of likeability to engage the client to the next stage. The plans page needs to be clear of what training sessions are on offer, pricing and a taste of what to expect on those sessions. The review section is to both reassure and inspire the client with some of Joe’s past clients success stories. The contact page continuing the rapport of the client to Joe showing approachability to connect with Joe, and further opportunities to connect through social media links.
 
 **User 2 - The Current Client**
 The user will want quick access to be able to contact Joe and book training sessions. The user will want up to date social media news to stay engaged with Joe.
@@ -127,7 +127,7 @@ Feedback from peer review suggested design alterations for better UX including a
 
 **User Testing**
 
-User testing completed by a Project Manager in the field. Good feedback on making the links more clear and accessible. Sudjested the Favicon.
+User testing completed by a Project Manager in the field. Good feedback on making the links more clear and accessible. Suggested the Favicon.
 
 
 
