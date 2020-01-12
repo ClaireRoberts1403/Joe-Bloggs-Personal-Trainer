@@ -124,6 +124,7 @@ Code tested in:
 **Peer Review Test**
 
 Feedback from peer review suggested design alterations for better UX including a third font and dropping to two columns at the tablet response size.
+Feedback from further mentor review suggested margin alterations for better UX, and ensuring responsiveness on multiple devices. 
 
 **User Testing**
 
@@ -152,6 +153,8 @@ Code used from Bootstrap Toolkit, edited with help from
 Fonts and icons from Font Awesome
 
 Favicon from Favicon.io
+
+Some alterations to code from the results of Lighthouse anaylsis.
 
 Images from Bing Image search used without permission but only for educational purposes.
 

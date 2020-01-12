@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Alatsi|Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
+
+
 body {
     color: #f5f5f5;
     background-color: #262626;
@@ -18,6 +20,8 @@ body {
     padding: 0;
     margin: 0;
 }
+
+
 
 dl,
 ol,
@@ -57,7 +61,11 @@ ul {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #ca0c04;
+    border-bottom: 2px solid #ca0c04;
+}
+
+.active {
+    border-bottom: 2px solid #595959;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -73,20 +81,27 @@ ul {
 .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255, .5);
     border-color: #595959;
-    text-align: right!important;
+    text-align: right;
 
 }
 
 .navbar-dark .navbar-toggler:focus {
     border-color: #ca0c04;
-    outline: none!important;
+    outline: none;
 }
 
 /*footer*/
 
+footer {
+    position: sticky;
+}
+
 .social-networks {
     text-align: center;
     background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 4rem;
 }
 
 .social-networks li {
@@ -95,9 +110,9 @@ ul {
 
 .social-networks i {
     font-size: 200%;
-    margin: 1%;
-    padding: 1%;
+    margin-top: 0.2em;
     color: #777777;
+    padding: 0.2em;
 }
 
 .social-networks i:hover {
@@ -113,17 +128,21 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 
+
+}
+
+.hero-text {
+    padding-left: 8%;
+    font-family: Alatsi;
+
 }
 
 .hero-name {
     font-size: 700%;
     color: #ca0c04;
     text-shadow: 3px 3px 3px black;
-    padding-top: 200px;
+    padding-top: 160px;
     font-weight: bolder;
-    padding-left: 30px;
-    font-family: Alatsi;
-    display: inline-block;
 
 }
 
@@ -131,24 +150,24 @@ ul {
     font-size: 300%;
     color: #ca0c04;
     text-shadow: 2px 2px 2px black;
-    padding-top: 1px;
-    padding-left: 30px;
-    font-family: Alatsi;
-    display: inline-block;
+
 }
 
 .hero-quote {
     font-size: 250%;
     color: #f5f5f5;
     text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px darkgrey;
-    padding-top: 10px;
     padding-bottom: 20px;
-    padding-left: 30px;
-    font-family: Alatsi;
-    display: inline-block;
+
 }
 
 /*-- index page - about links --*/
+
+.card-deck {
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 0;
+}
 
 .card-img-bottom {
     border-radius: 5px;
@@ -164,22 +183,18 @@ ul {
 }
 
 .home {
-    margin-top: 10px;
+    margin: 4% 8%;
+    width: auto;
 }
 
 .about {
     line-height: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-    background-color: #262626;
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10px 5px 0;
 
 }
 
 .about p {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
     font-family: nunito;
     letter-spacing: 0.5px;
 }
@@ -208,23 +223,20 @@ hr {
 }
 
 #history {
-    line-height: 20px;
+    line-height: 25px;
     clear: both;
-    margin-bottom: 40px;
+    margin-bottom: 8%;
     text-align: center;
-    padding-left: 13%;
-    padding-right: 13%;
     font-family: nunito;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    font-size: large;
 
 }
 
 #history h1 {
-    padding: 10px;
     font-size: 275%;
     color: #ca0c04;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 20px 0;
     text-align: center;
     margin-bottom: 10px;
     font-family: Ubuntu;
@@ -233,43 +245,31 @@ hr {
 
 /* plans */
 
-#phero-name {
+.phero-name {
     font-size: 700%;
     color: #ca0c04;
     text-shadow: 3px 3px 3px black;
     padding-top: 70px;
     font-weight: bolder;
-    padding-left: 20px;
-    font-family: Alatsi;
+
 }
 
-
-#phero-title {
+.phero-title {
     font-size: 250%;
     color: #ca0c04;
     text-shadow: 2px 2px 2px black;
-    padding-top: 1px;
-    padding-left: 20px;
-    font-family: Alatsi;
+
 }
 
-#phero-quote {
+.phero-quote {
     font-size: 200%;
     color: #f5f5f5;
     text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px darkgrey;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    font-family: Alatsi;
-}
-
-.plan-type {
-    display: inline-block;
 }
 
 .plans-image {
     background: url("../images/plans.jpg");
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -280,7 +280,7 @@ hr {
 
 .plans-image2 {
     background: url("../images/plans2.jpg");
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -290,117 +290,96 @@ hr {
 }
 
 .plans-title {
-    font-size: 400%;
+    font-size: 600%;
     color: #ca0c04;
-    opacity: 0.9;
-    padding-top: 10px;
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 4%;
     letter-spacing: 1px;
+    font-family: Alatsi;
+    text-shadow: 1px 1px 2px black;
 }
 
 .plans-quote {
-    font-size: 120%!important;
+    font-size: 150%;
     color: #ca0c04;
-    opacity: 0.9;
-    padding-top: 5px;
     text-align: center;
-    line-height: 30px;
-    margin-bottom: 20px;
-    font-family: nunito;
-    letter-spacing: 0.5px;
+    margin-bottom: 4%;
+    font-family: Nunito;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
 
 }
 
 .table {
-    background-color: #262626!important;
+    background-color: #262626;
     color: #f5f5f5;
     text-align: center;
 }
 
-.h-100 {
-    height: auto!important;
-}
-
-.card-deck {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 20px;
-}
 
 .card {
-    background-color: #262626!important;
-    text-align: center;
+    background-color: #262626;
     box-shadow: 3px 3px 10px 3px black;
     border-color: transparent;
-    margin-left: 0;
-    margin-right: 0;
+    text-align: center;
+    margin: 0;
 
-}
-
-
-
-.card-body {
-    background-color: #262626!important;
-    border-color: #262626!important;
-}
-
-.card-title {
-    text-decoration: underline;
 }
 
 .card:hover {
     box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 1);
 }
 
-#plansdescription h1 {
+#plans_description h1 {
     color: #ca0c04;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 4%;
+    font-size: 400%;
+    font-family: Alatsi;
+    font-style: bold;
+    text-shadow: 1px 1px 2px black;
 }
 
-#plansdescription i {
+#plans_description i {
     color: #f5f5f5;
 }
 
-h5 {
+#plans_description h5 {
     padding-bottom: 0.5em;
 }
 
 
 #footnote {
     color: #f5f5f5;
-    re-size: 90%;
     text-align: center;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 20px 10px 0;
+
 }
 
 .download {
     text-align: center;
-    font-size: large;
-    margin-top: 50px;
+    font-size: 160%;
+    margin-top: 25px;
     color: #fafafa;
     padding-left: 5px;
-     margin-bottom: 10px;
-    
+    margin-bottom: 25px;
+
 }
 
-a  {
+a {
     color: #f5f5f5;
-   
-    
+
+
 }
 
 a:hover {
-    color:#ca0c04;
+    color: #ca0c04;
 }
+
 .download:hover {
     color: #ca0c04;
     text-decoration: none;
-   
+
 }
 
 .download-pdf i {
@@ -409,16 +388,6 @@ a:hover {
     text-align: center;
     padding-left: 5px;
 }
-
-
-.downloadsmall {
-    padding-left: 10px;
-    text-align: center;
-    padding-right: 10px;
-     margin-bottom: 10px;
-
-}
-
 
 /*reviews*/
 
@@ -429,10 +398,9 @@ a:hover {
 
 
 #review-title {
-    font-size: 450%;
+    font-size: 600%;
     color: #ca0c04;
-    text-shadow: 1px 1px 2px black;
-    padding-top: 20px;
+    padding-top: 4%;
     padding-bottom: 10px;
     font-weight: bold;
     font-family: Alatsi;
@@ -443,36 +411,14 @@ a:hover {
 
 #review-quote {
     font-size: 190%;
-    text-shadow: 1px 1px 2px black;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 4%;
     letter-spacing: 1px;
     word-spacing: 3px;
 
 }
 
-#reviewgallery {
-    width: 100%;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    line-height: 20px;
-    letter-spacing: 0.8px;
-    border-radius: 5px;
-}
 
-#reviewgallery h3 {
-    letter-spacing: 1px;
-    line-height: 30px;
-    padding: 10px;
-}
-
-#reviewgallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    border-color: #595959;
-}
 
 .desc {
     font-size: 110%;
@@ -512,7 +458,9 @@ a:hover {
 
 
 .contactform {
-    width: 100%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
     padding: 30px 10%;
     font-size: larger;
     color: #f5f5f5;
@@ -537,55 +485,167 @@ a:hover {
     box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.7);
 }
 
-.check {
-    background-color: black;
-    text-align: center;
-    margin-bottom: 0;
-    font-family: Alatsi;
-    letter-spacing: 0.5px;
-    padding-top: 6px;
+
+/*----- Media Queries------*/
+
+@media (min-width: 1030px) {
+
+    .hero-image {
+        height: 800px;
+    }
+
+    .plans-image {
+        height: 800px;
+
+    }
 }
 
- @media only screen and (max-width: 768px) {   
+@media (min-width: 1400px) {
+
+    .hero-image {
+        height: 1200px;
+    }
+
+    .plans-image {
+        height: 1000px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1025px) {
+    #contact {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .card-columns {
         column-count: 2;
     }
- }    
- 
- @media only screen and (max-width: 668px) {   
+    .plans-image {
+        height: 800px;
+    }
+    .home {
+        margin: 4% 4%;
+        width: auto;
+    }
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    .contactform {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+}
+
+@media screen and (max-width: 668px) {
     .card-deck {
         flex-flow: column;
     }
- } 
+    .card-columns {
+        column-count: 1;
+    }
 
-@media (max-width: 435px) {
+}
+
+
+@media screen and (max-width: 480px) {
+
+    #media_display_table {
+        display: none;
+    }
+
 
     #menulogo {
         display: none;
     }
 
+    .hero-image {
+        height: 700px;
+
+    }
 
     .hero-name {
-        font-size: 500%;
+        font-size: 550%;
         padding-top: 200px;
-        line-height: 90px;
+        padding-right: 8%;
     }
 
     .hero-title {
         font-size: 220%;
-        line-height: 50px;
+
     }
 
     .hero-quote {
-        font-size: 170%;
-        padding-bottom: 50px;
+        font-size: 160%;
+        padding-bottom: 4%;
+        padding-right: 1%;
     }
 
+    .plans-image {
+        height: 670px;
+
+    }
+    .plans-image2 {
+        height: 450px;
+
+    }
+
+    .phero-name {
+        font-size: 500%;
+        padding-top: 8%;
+        line-height: 90px;
+    }
+
+    .phero-title {
+        font-size: 180%;
+        line-height: 90px;
+    }
+
+    .phero-quote {
+        font-size: 120%;
+        padding-right: 2%;
+
+    }
+
+    .plans-title {
+        font-size: 270%;
+    }
+
+    .plans-quote {
+        font-size: 120%;
+        color: #f5f5f5;
+    }
+
+    .download {
+        font-size: 110%;
+    }
+
+    #plans_description h1 {
+        font-size: 240%;
+    }
+
+    #review-title {
+        font-size: 500%;
+    }
+
+    #review-quote {
+        font-size: 170%;
+    }
+
+    .contactform {
+        width: 100%;
+        margin: 0;
+    }
     .card-deck {
         column-count: 1;
-        width: 100%;
+
     }
-     .card-columns {
+    .card-columns {
         column-count: 1;
     }
 
@@ -595,126 +655,39 @@ a:hover {
 }
 
 
-@media only screen and (min-width: 560px) and (max-width: 1220px) {
+@media screen and (max-width: 320px) {
+
+    .hero-image {
+        height: 500px;
+
+    }
+
     .hero-name {
-        font-size: 600%;
-        padding-top: 260px;
-        line-height: 90px;
+        padding-top: 150px;
+        font-size: 400%;
     }
-}
 
-@media only screen and (min-width: 1220px) {
-    .contactform {
-        width: 50%;
-        margin-left: 25%;
+    .hero-quote {
+        font-size: 130%;
+        padding-bottom: 4%;
+        padding-right: 1%;
     }
-}
 
-@media only screen and (min-width: 768px) {
-    .contactform {
-        width: 70%;
-        margin-left: 15%;
+
+    .plans-image2 {
+        height: 450px;
+
     }
-}
 
-
-
-
-
-@media (max-width: 560px) {
-
-    #phero-name {
-        font-size: 500%;
-        padding-top: 60px;
+    .phero-name {
+        font-size: 400%;
+        padding-top: 8%;
         line-height: 90px;
     }
 
-    #phero-title {
-        font-size: 200%;
-        line-height: 45px;
-    }
-
-    #phero-quote {
-        line-height: 40px;
+    .phero-title {
         font-size: 180%;
-        padding-left: 8px;
-        padding-right: 8px;
-        text-align: center !important;
-
-    }
-
-    #planstable {
-        display: none;
-    }
-
-    .plans-title {
-        font-size: 200%;
-    }
-
-    .plans-quote {
-        font-size: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    br {
-        display: none;
-    }
-
-    .check {
-        font-size: 120%;
-
-    }
-    #review-quote {
-        font-size: 150%;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-}
-
-
-@media only screen and (min-width: 560px) and (max-width: 1220px) {
-    #phero-name {
-        font-size: 600%;
-        padding-top: 60px;
         line-height: 90px;
     }
-}
 
-@media (min-width: 560px) {
-
-    .downloadsmall {
-        display: none;
-
-    }
-}
-
-
-
-@media (min-width: 1030px) {
-
-    .hero-image {
-        height: 800px;
-    }
-
-}
-
-@media (min-width: 1700px) {
-
-    .hero-image {
-        height: 1200px;
-    }
-}
-
-@media (min-width: 2055px) {
-
-    .hero-image {
-        height: 1400px;
-    }
-
-    body {
-        width: 1700px;
-        margin-left: 18%;
-        background-color: black;
-    }
 }
